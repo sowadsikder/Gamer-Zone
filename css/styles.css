@@ -1,0 +1,17 @@
+/* Ues The Google Fonts Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+
+/* Universal Styling Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared Styling Start */
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
