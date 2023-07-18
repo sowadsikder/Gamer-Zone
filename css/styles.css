@@ -15,3 +15,44 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+
+/* Navbar Styling Start */
+
+.navbar-container {
+  display: flex;
+  min-height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+.logo-container {
+  display: flex;
+}
+
+.logo-container img {
+  width: 55px;
+  object-fit: cover;
+}
+.logo-container p {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.logo-container p span {
+  color: #ff42a5;
+}
+.navbar-items-container {
+  display: flex;
+}
+.navbar-items-container a {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+a.follow-us {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
