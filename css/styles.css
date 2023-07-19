@@ -391,3 +391,77 @@ p.play-description {
 }
 
 /* Play Games Section Styling End */
+
+/* Careers Section  Styling Start */
+
+section.careers {
+  margin: 80px 0;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.careers-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.careers-right-content {
+  width: 60%;
+}
+
+.careers-right-content img {
+  max-width: 100%;
+}
+
+.careers-left-content {
+  width: 40%;
+  padding: 70px 0px 0px 90px;
+}
+
+h3.careers-title {
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+p.description {
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.careers-mini-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.careers-mini-left p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.careers-mini-right p {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-primary-light {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 48px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FF42A5;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+/* Careers Section  Styling End */
