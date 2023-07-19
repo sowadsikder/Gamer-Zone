@@ -128,4 +128,7 @@
     text-align: center !important;
     margin-bottom: 20px !important;
   }
+  #online-games{
+    padding: 0 !important;
+  }
 }
