@@ -494,3 +494,75 @@ button p {
 .sponser-text p {
   font-size: 12px;
 }
+
+
+footer {
+  background: #0B0223;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.footer-logo img {
+  width: 5%;
+}
+
+.footer-logo h4 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.footer-logo h4 span {
+  color: #FF42A5;
+}
+.footer-container {
+  text-align: center;
+}
+footer {
+    background: #0B0223;
+}
+
+.footer-nav-items {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.footer-nav-items li {
+    list-style: none;
+}
+
+.footer-nav-items li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.footer-icons i {
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 25px;
+}
+.footer-extralik li {
+  list-style: none;
+}
+
+.footer-extralik li a {
+  text-decoration: none;
+  color: white;
+  padding: 17px 25px;
+}
+
+.footer-extralik {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+.smalltext p {
+  font-size: 12px;
+  padding-bottom: 30px;
+  color: #fff;
+}
