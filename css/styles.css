@@ -15,15 +15,24 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+.text-description {
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
 .btn-primary {
   border-radius: 48px;
-  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   border: none;
   padding: 15px 25px;
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   text-align: center;
   font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 /* Navbar Styling Start */
 
@@ -65,13 +74,13 @@ a.follow-us {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
 }
-.fa-youtube{
-  color: rgb(255 0 0)
+.fa-youtube {
+  color: rgb(255 0 0);
 }
 .fa-tiktok {
   color: #111111;
-  
-  filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+
+  filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
 }
 
 /* Navbar Styling End */
@@ -85,8 +94,9 @@ a.follow-us {
   gap: 30px;
   text-align: center;
 }
-.banner-left-content-container{
-  background-image: url('../images/Group\ 14.png'),  linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+.banner-left-content-container {
+  background-image: url("../images/Group\ 14.png"),
+    linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -94,10 +104,8 @@ a.follow-us {
   height: 100vh;
 }
 .banner-left-content {
- 
- margin-top: 100px;
+  margin-top: 100px;
 }
-
 
 .banner-right-content {
   width: 50%;
@@ -108,37 +116,71 @@ a.follow-us {
 }
 h3.text-title-1 {
   font-size: 30px;
-  color: #0B0223;
+  color: #0b0223;
   font-weight: 600;
 }
 
 h3.text-title-2 {
   font-size: 55px;
   margin-bottom: 10px;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-description p {
-  color: #534C64;
+  color: #534c64;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
 }
-.fa-circle-play{
-  color: #FF42A5;
+.fa-circle-play {
+  color: #ff42a5;
 }
-.fa-download{
-  color: #FF42A5;
+.fa-download {
+  color: #ff42a5;
 }
-.fa-user{
-  color: #0B0223;
+.fa-user {
+  color: #0b0223;
 }
 #color-changes {
-  background: #4EC5F7;
+  background: #4ec5f7;
 }
 .button {
   margin-top: 25px;
+}
+
+/* Banner Section Styling End */
+
+/* Gamer Section Styling Start */
+
+#gamer {
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-left-content {
+  width: 50% !important;
+}
+.gamer-left-content img {
+  width: 100%;
+}
+.gamer-right-content {
+  width: 40%;
+  text-align: right;
+}
+.gamer-container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+h3.text-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
