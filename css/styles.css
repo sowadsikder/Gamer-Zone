@@ -465,3 +465,32 @@ p.description {
 }
 
 /* Careers Section  Styling End */
+button {
+  display: flex;
+}
+
+button p {
+  margin-top: 30px;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    'sponser-box sponser-box sponser-box sponser-box sponser-box';
+  padding: 0px 70px;
+}
+.sponser-box {
+  width: 150px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
+}
+
+.sponser-box img {
+  width: 10%;
+}
+
+.sponser-text p {
+  font-size: 12px;
+}
