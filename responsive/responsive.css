@@ -42,7 +42,8 @@
 @media screen and (max-width: 425px) {
   .navbar-container,
   .navbar-items-container,
-  .gamer-containerm, .cards-container {
+  .gamer-containerm,
+  .cards-container {
     flex-direction: column;
   }
   .navbar-items-container {
@@ -80,18 +81,51 @@
   .gamer-right-content {
     text-align: center !important;
   }
-  .section-title{
+  .section-title {
     font-size: 25px !important;
   }
-  .online-games-container{
+  .online-games-container {
     text-align: center;
   }
-  .cards{
+  .cards {
     width: 100% !important;
   }
-  .cards:hover .cards-content{
+  .cards:hover .cards-content {
     height: 88% !important;
     border-radius: 8px;
   }
-  
+  .instantly-container,
+  .careers-container {
+    flex-direction: column;
+  }
+
+  .instanly-left,
+  .play-games-right {
+    width: 80% !important;
+  }
+
+  h3.section-title,
+  h3.section-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  p.text-description {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .instanly-right,
+  .play-games-left {
+    width: 65% !important;
+  }
+  h3.play-title {
+    text-align: center !important;
+  }
+  p.play-description{
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
 }
