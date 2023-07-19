@@ -261,3 +261,63 @@ h3.section-title span {
 .cards .description{
   color: #fff;
 }
+
+/* Play Instanly Section Styling Start */
+
+.instantly {
+  padding: 80px 0;
+}
+
+.instantly-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.instanly-left {
+  width: 25%;
+}
+
+h3.play-title {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+h3.play-title span {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p.play-description {
+  color: #534C64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.instanly-right {
+  width: 40%;
+  position: relative;
+}
+
+.instanly-right img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.over-img {
+  width: 40%;
+  position: absolute;
+  top: 60%;
+  left: -20%;
+}
+
+/* Play Instanly Section Styling End */
