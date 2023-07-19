@@ -494,6 +494,10 @@ button p {
 .sponser-text p {
   font-size: 12px;
 }
+.sponser-box:hover{
+  border: 1px solid #FF42A5 ;
+  border-radius: 40%;
+}
 
 
 footer {
@@ -523,6 +527,9 @@ footer {
 }
 footer {
     background: #0B0223;
+}
+section.features {
+  margin-bottom: 80px;
 }
 
 .footer-nav-items {
