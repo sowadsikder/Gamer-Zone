@@ -14,7 +14,7 @@
   .banner-left-content-container {
     width: 80% !important;
   }
-  .banner-left-content{
+  .banner-left-content {
     margin-left: 250px !important;
     margin-top: 50px !important;
   }
@@ -23,7 +23,7 @@
   }
   .banner-left-content-container {
     width: 90% !important;
-    height: 100vh !important;
+    height: 70vh !important;
   }
   #color-changes {
     margin-top: 10px;
@@ -52,11 +52,11 @@
     height: 75% !important;
     border-radius: 8px;
   }
-  .instantly-container, 
+  .instantly-container,
   .careers-container {
     flex-direction: column;
   }
-  .play-games-container{
+  .play-games-container {
     flex-direction: column-reverse;
   }
 
@@ -122,14 +122,13 @@
     margin-bottom: 20px;
     margin-top: 20px;
   }
-  .sp-box{
+  .sp-box {
     display: flex;
     flex: 1 1 200px;
     justify-content: center;
   }
-  .box-content p{
+  .box-content p {
     font-size: 8px;
-
   }
 }
 
@@ -158,8 +157,8 @@
   .gamer-left-content {
     width: 100% !important;
   }
-  .banner-left-content{
-    margin-left: 70px !important;
+  .banner-left-content {
+    margin-left: 60px !important;
     margin-top: 50px !important;
   }
   .text-description p {
@@ -167,9 +166,9 @@
   }
   .banner-left-content-container {
     width: 80% !important;
-    height: 100vh !important;
+    height: 80vh !important;
   }
-  p.text-style-3{
+  p.text-style-3 {
     margin-right: 20px;
   }
   #color-changes {
@@ -192,6 +191,9 @@
   }
   .online-games-container {
     text-align: center;
+  }
+  .cards-container{
+    padding-left: 75px !important;
   }
   .cards {
     width: 80% !important;
@@ -268,31 +270,29 @@
     margin-bottom: 20px;
     margin-top: 20px;
   }
-  .sp-box{
+  .sp-box {
     display: flex;
     flex: 1 1 100px;
   }
-  .box-content p{
+  .box-content p {
     font-size: 8px;
   }
-  .footer-logo img{
+  .footer-logo img {
     width: 10% !important;
   }
-  .footer-link a{
+  .footer-link a {
     line-height: 40px;
   }
   .footer-links a {
     padding: 0px 40px !important;
   }
-  .footer-links i{
+  .footer-links i {
     padding: 15px 0;
   }
-  .footer-extra-link a{
+  .footer-extra-link a {
     line-height: 40px;
   }
-  .smalltext p span{
+  .smalltext p span {
     display: block;
   }
-
 }
-

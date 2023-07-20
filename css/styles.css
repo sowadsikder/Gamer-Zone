@@ -606,6 +606,11 @@ footer {
 
 
 /* All Hover Effect */
+
+
+.navbar-items-container a:hover{
+  color:  #ff42a5 ;
+}
 .btn-primary:hover{
   transform: scale(0.9);
   cursor: pointer;
