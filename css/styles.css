@@ -466,6 +466,11 @@ p.description {
 
 /* Careers Section  Styling End */
 
+/* Features Section  Styling Start */
+
+.features {
+  margin-bottom: 80px;
+}
 .box-content {
   display: flex;
   align-items: center;
@@ -482,7 +487,7 @@ p.description {
   flex-wrap: wrap;
   justify-content: center;
 }
-.sp-box{
+.sp-box {
   margin: 20px 20px;
 }
 .sp-box:hover .box-content {
@@ -492,6 +497,10 @@ p.description {
   background: #fff;
   color: #ff42a5;
 }
+
+/* Features Section  Styling End */
+
+/* Footer Section  Styling Start */
 
 footer {
   background: #0b0223;
@@ -518,51 +527,61 @@ footer {
 .footer-container {
   text-align: center;
 }
-footer {
-  background: #0b0223;
-}
-section.features {
-  margin-bottom: 80px;
-}
-
 .footer-nav-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 40px;
 }
-
-.footer-nav-items li {
-  list-style: none;
-}
-
-.footer-nav-items li a {
-  text-decoration: none;
-  color: #fff;
-  padding: 0 20px;
-}
-
-.footer-icons i {
-  color: #fff;
-  padding: 15px 25px;
-  font-size: 25px;
-}
-.footer-extralik li {
-  list-style: none;
-}
-
-.footer-extralik li a {
-  text-decoration: none;
-  color: white;
-  padding: 17px 25px;
-}
-
-.footer-extralik {
+.footer-nav-items-container {
   display: flex;
   justify-content: center;
-  padding: 25px 0;
+  padding: 25px 20px;
 }
-.smalltext p {
-  font-size: 12px;
-  padding-bottom: 30px;
+
+.footer-link a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-icons-container {
+  display: flex;
+  justify-content: center;
+}
+.footer-links a {
+  padding: 0px 10px;
+}
+.footer-links i {
+  font-size: 30px;
   color: #fff;
 }
+.footer-extralink {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-extralink-container {
+  display: flex;
+  justify-content: center;
+}
+.footer-extra-link {
+  padding: 25px 20px;
+}
+
+.footer-extra-link a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+}
+.smalltext p {
+  color: grey;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+/* Footer Section  Styling End */

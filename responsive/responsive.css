@@ -257,11 +257,22 @@
   }
   .box-content p{
     font-size: 8px;
-
+  }
+  .footer-link a{
+    line-height: 40px;
+  }
+  .footer-links a {
+    padding: 0px 40px;
+  }
+  .footer-links i{
+    padding: 15px 0;
+  }
+  .footer-extra-link a{
+    line-height: 40px;
+  }
+  .smalltext p span{
+    display: block;
   }
 
-  .footer-nav-items li a{
-    flex: 3 !important;
-  }
 }
 
