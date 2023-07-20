@@ -278,7 +278,7 @@
     line-height: 40px;
   }
   .footer-links a {
-    padding: 0px 40px;
+    padding: 0px 40px !important;
   }
   .footer-links i{
     padding: 15px 0;
