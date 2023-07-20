@@ -14,6 +14,9 @@
   .banner-left-content-container {
     width: 80% !important;
   }
+  .banner-left-content{
+    margin-left: 250px !important;
+  }
   .text-description p {
     font-size: 14px !important;
   }
@@ -46,9 +49,12 @@
     height: 88% !important;
     border-radius: 8px;
   }
-  .instantly-container,
+  .instantly-container, 
   .careers-container {
     flex-direction: column;
+  }
+  .play-games-container{
+    flex-direction: column-reverse;
   }
 
   .instanly-left,
