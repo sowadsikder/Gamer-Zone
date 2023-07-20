@@ -258,6 +258,9 @@
   .box-content p{
     font-size: 8px;
   }
+  .footer-logo img{
+    width: 10% !important;
+  }
   .footer-link a{
     line-height: 40px;
   }
