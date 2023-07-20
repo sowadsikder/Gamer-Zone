@@ -16,13 +16,14 @@
   }
   .banner-left-content{
     margin-left: 250px !important;
+    margin-top: 50px !important;
   }
   .text-description p {
     font-size: 14px !important;
   }
   .banner-left-content-container {
     width: 90% !important;
-    height: 70vh !important;
+    height: 100vh !important;
   }
   #color-changes {
     margin-top: 10px;
@@ -35,6 +36,7 @@
   }
   .gamer-right-content {
     width: 90% !important;
+    text-align: center !important;
   }
   .section-title {
     font-size: 25px !important;
@@ -43,10 +45,11 @@
     text-align: center;
   }
   .cards {
-    width: 100% !important;
+    width: 84% !important;
+    margin: 0 10px !important;
   }
   .cards:hover .cards-content {
-    height: 88% !important;
+    height: 75% !important;
     border-radius: 8px;
   }
   .instantly-container, 
@@ -156,14 +159,15 @@
     width: 100% !important;
   }
   .banner-left-content{
-    margin-left: 50px !important;
+    margin-left: 70px !important;
+    margin-top: 50px !important;
   }
   .text-description p {
     font-size: 14px !important;
   }
   .banner-left-content-container {
     width: 80% !important;
-    height: 80vh !important;
+    height: 100vh !important;
   }
   p.text-style-3{
     margin-right: 20px;
@@ -190,11 +194,11 @@
     text-align: center;
   }
   .cards {
-    width: 100% !important;
+    width: 80% !important;
     margin-bottom: 20px !important;
   }
   .cards:hover .cards-content {
-    height: 88% !important;
+    height: 95% !important;
     border-radius: 8px;
   }
   .instantly-container,

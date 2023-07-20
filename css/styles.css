@@ -39,7 +39,9 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 20px;
+  transition: all .3s ease-in;
 }
+
 /* Navbar Styling Start */
 
 .navbar-container {
@@ -142,13 +144,7 @@ h3.text-title-2 {
   font-weight: 500;
   margin-bottom: 10px;
 }
-/* p.text-style-2 {
-  margin-right: 45px;
-}
 
-p.text-style-3 {
-  margin-left: 110px;
-} */
 .fa-circle-play {
   color: #ff42a5;
 }
@@ -171,6 +167,7 @@ p.text-style-3 {
 
 #gamer {
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  padding: 80px 0;
 }
 .gamer-left-content {
   width: 50%;
@@ -187,7 +184,7 @@ p.text-style-3 {
   gap: 30px;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 h3.text-title {
@@ -245,7 +242,7 @@ p.text-descriptions {
 
 .cards:hover .cards-content {
   width: 100%;
-  height: 68%;
+  height: 85%;
   position: absolute;
   top: 0;
   left: 0;
@@ -476,6 +473,7 @@ p.description {
   color: #ff42a5;
   text-transform: uppercase;
   margin-top: 20px;
+  transition: all .3s ease-in;
 }
 
 /* Careers Section  Styling End */
@@ -489,6 +487,7 @@ p.description {
   display: flex;
   align-items: center;
   gap: 5px;
+  transition: all .3s ease-in
 }
 
 .box-content img {
@@ -510,6 +509,7 @@ p.description {
   border-radius: 50px;
   background: #fff;
   color: #ff42a5;
+  
 }
 
 /* Features Section  Styling End */
@@ -556,6 +556,7 @@ footer {
   text-decoration: none;
   color: #fff;
   padding: 15px;
+  transition: all .3s ease-in
 }
 .footer-icons {
   display: flex;
@@ -569,10 +570,12 @@ footer {
 }
 .footer-links a {
   padding: 0px 10px;
+  transition: all .3s ease-in
 }
 .footer-links i {
   font-size: 30px;
   color: #fff;
+  transition: all .3s ease-in
 }
 .footer-extralink {
   display: flex;
@@ -592,6 +595,7 @@ footer {
   text-decoration: none;
   color: #fff;
   padding: 0 10px;
+  transition: all .3s ease-in
 }
 .smalltext p {
   color: grey;
@@ -599,3 +603,23 @@ footer {
   padding-bottom: 30px;
 }
 /* Footer Section  Styling End */
+
+
+/* All Hover Effect */
+.btn-primary:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.btn-primary-light:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.footer-link a:hover{
+  color:  #ff42a5 ;
+}
+.footer-links i:hover{
+  color:  #ff42a5 ;
+}
+.footer-extra-link a:hover{
+  color:  #ff42a5 ;
+}
