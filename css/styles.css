@@ -396,7 +396,7 @@ p.play-description {
 
 section.careers {
   margin: 80px 0;
-  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
 
 .careers-container {
@@ -418,7 +418,7 @@ section.careers {
 }
 
 h3.careers-title {
-  color: #FFF;
+  color: #fff;
   font-family: Work Sans;
   font-size: 40px;
   font-weight: 700;
@@ -427,7 +427,7 @@ h3.careers-title {
 }
 
 p.description {
-  color: #FFF;
+  color: #fff;
   font-family: Work Sans;
   font-size: 14px;
   font-weight: 400;
@@ -459,49 +459,42 @@ p.description {
   border-radius: 48px;
   font-size: 12px;
   font-weight: 600;
-  color: #FF42A5;
+  color: #ff42a5;
   text-transform: uppercase;
   margin-top: 20px;
 }
 
 /* Careers Section  Styling End */
-button {
-  display: flex;
-}
 
-button p {
-  margin-top: 30px;
-}
-.container {
-  display: grid;
-  grid-template-areas:
-    'sponser-box sponser-box sponser-box sponser-box sponser-box';
-  padding: 0px 70px;
-}
-.sponser-box {
-  width: 150px;
-  height: 80px;
+.box-content {
   display: flex;
   align-items: center;
   gap: 5px;
-  overflow: hidden;
 }
 
-.sponser-box img {
-  width: 10%;
+.box-content img {
+  max-width: 30px;
+  max-height: 30px;
 }
 
-.sponser-text p {
-  font-size: 12px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.sponser-box:hover{
-  border: 1px solid #FF42A5 ;
-  border-radius: 40%;
+.sp-box{
+  margin: 20px 20px;
 }
-
+.sp-box:hover .box-content {
+  padding: 5px 5px;
+  border: 1px solid #ff42a5;
+  border-radius: 50px;
+  background: #fff;
+  color: #ff42a5;
+}
 
 footer {
-  background: #0B0223;
+  background: #0b0223;
 }
 .footer-logo {
   display: flex;
@@ -520,38 +513,38 @@ footer {
 }
 
 .footer-logo h4 span {
-  color: #FF42A5;
+  color: #ff42a5;
 }
 .footer-container {
   text-align: center;
 }
 footer {
-    background: #0B0223;
+  background: #0b0223;
 }
 section.features {
   margin-bottom: 80px;
 }
 
 .footer-nav-items {
-    display: flex;
-    justify-content: center;
-    margin: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
 }
 
 .footer-nav-items li {
-    list-style: none;
+  list-style: none;
 }
 
 .footer-nav-items li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 20px;
 }
 
 .footer-icons i {
-    color: #fff;
-    padding: 15px 25px;
-    font-size: 25px;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 25px;
 }
 .footer-extralik li {
   list-style: none;

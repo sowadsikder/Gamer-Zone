@@ -33,6 +33,95 @@
   .gamer-right-content {
     width: 90% !important;
   }
+  .section-title {
+    font-size: 25px !important;
+  }
+  .online-games-container {
+    text-align: center;
+  }
+  .cards {
+    width: 100% !important;
+  }
+  .cards:hover .cards-content {
+    height: 88% !important;
+    border-radius: 8px;
+  }
+  .instantly-container,
+  .careers-container {
+    flex-direction: column;
+  }
+
+  .instanly-left,
+  .play-games-right {
+    width: 80% !important;
+  }
+
+  h3.section-title,
+  h3.section-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  p.text-description {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .instanly-right,
+  .play-games-left {
+    width: 65% !important;
+  }
+  h3.play-title,
+  .games-title {
+    text-align: center !important;
+  }
+  p.play-description,
+  .games-description {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+  #online-games {
+    padding: 0 !important;
+  }
+  .careers-left-content {
+    padding: 50px 0px 0px 50px !important;
+    width: 80% !important;
+  }
+
+  h3.text-title {
+    font-size: 35px;
+  }
+
+  p.description {
+    margin-bottom: 20px;
+    line-height: 22px;
+    margin-top: 20px;
+  }
+
+  .careers-mini-left p,
+  .careers-mini-right p {
+    font-size: 12px;
+  }
+  .btn-primary-light {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .careers-right-content {
+    width: 95% !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .sp-box{
+    display: flex;
+    flex: 1 1 200px;
+    justify-content: center;
+  }
+  .box-content p{
+    font-size: 8px;
+
+  }
 }
 
 /* Tablet Media Query End*/
@@ -162,21 +251,17 @@
     margin-bottom: 20px;
     margin-top: 20px;
   }
-  .container{
-    grid-template-areas:
-      'sponser-box sponser-box sponser-box' !important;
-    padding: 30px 29px !important;
+  .sp-box{
+    display: flex;
+    flex: 1 1 100px;
   }
-  .sponser-box{
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .sponser-text p{
+  .box-content p{
+    font-size: 8px;
 
-    font-size: 16px !important;
   }
-  .sponser-box img{
-    width: 20% !important;
+
+  .footer-nav-items li a{
+    flex: 3 !important;
   }
 }
 
