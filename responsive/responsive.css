@@ -149,12 +149,18 @@
   .gamer-left-content {
     width: 100% !important;
   }
+  .banner-left-content{
+    margin-left: 50px !important;
+  }
   .text-description p {
     font-size: 14px !important;
   }
   .banner-left-content-container {
     width: 80% !important;
     height: 80vh !important;
+  }
+  p.text-style-3{
+    margin-right: 20px;
   }
   #color-changes {
     margin-top: 10px;
@@ -179,6 +185,7 @@
   }
   .cards {
     width: 100% !important;
+    margin-bottom: 20px !important;
   }
   .cards:hover .cards-content {
     height: 88% !important;

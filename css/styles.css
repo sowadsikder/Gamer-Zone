@@ -98,7 +98,7 @@ a.follow-us {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  text-align: center;
+ 
 }
 .banner-left-content-container {
   background-image: url("../images/Group\ 14.png"),
@@ -107,10 +107,11 @@ a.follow-us {
   background-size: cover;
   background-position: top;
   width: 50%;
-  height: 100vh;
+  height: 500px;
 }
 .banner-left-content {
   margin-top: 100px;
+  margin-left: 100px;
 }
 
 .banner-right-content {
@@ -137,10 +138,17 @@ h3.text-title-2 {
 
 .text-description p {
   color: #534c64;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
 }
+/* p.text-style-2 {
+  margin-right: 45px;
+}
+
+p.text-style-3 {
+  margin-left: 110px;
+} */
 .fa-circle-play {
   color: #ff42a5;
 }
@@ -210,6 +218,12 @@ h3.section-title span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
+}
+p.text-descriptions {
+  font-size: 14px;
+  color: #534C64;
+  font-weight: 500;
+  line-height: 18px;
 }
 .cards {
   width: 210px;
